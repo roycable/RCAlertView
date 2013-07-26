@@ -1,21 +1,23 @@
-# RCAlertView
+## RCAlertView
 
 UIAlertView with blocks - simple.
 
-# Installation
+## Installation
 
- - Add 'RCAlertView.h' and 'RCAlertView.m' to your project
- - add `#import RCAlertView.h` to your project (such as in your .PCH file)
+ - Add 'RCAlertView.h' and 'RCAlertView.m' to your project.
+ - Add `#import RCAlertView.h` where required, or in your .PCH for global usage.
 
-# How to use it?
+## How to use it?
 
-## Simple Alert, with no button delegation or block
+ - No init required.
+
+### Simple Usage: 1 button, and no pesky delegates.
 
         [[RCAlertView shared] alertWithTitle:@"This is my title" 
                             andMessage:@"Thanks for using RCAlertView" 
                         andButtonTitle:@"No Worries"];
 
-## Two button Alert, with bocks
+### Two button Usage: 2 buttons, 1 block.
 
         [[RCAlertView shared] alertWithTitle:@"Title" 
                                   andMessage:@"This alert has two buttons" 
@@ -32,11 +34,11 @@ UIAlertView with blocks - simple.
         }];
 
 
-# Continued Development
+## Continued Development
 
 RCAlertView will continue to improve with more features to be added - eg. support for more than 2 buttons - so hold tight.
 
-# License
+## License
 
 Copyright (c) 2013 Roy Cablewski
 
